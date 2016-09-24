@@ -1,1 +1,37 @@
+nav {
+	height: 80px;
+	background-color: grey;
+	position: relative;
+	text-align: left;
+}
 
+nav img {
+	border: 3px solid #333;
+ 	height: 60px;
+ 	width: 60px;
+ 	-moz-border-radius:30px;
+ 	-webkit-border-radius: 30px;
+ 	position: absolute;
+ 	margin: 10px;
+
+}
+
+ul {
+	display: inline-block;
+	margin-left: 60px;
+	padding-top: 12px;
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	margin: 0 10px;
+	display: block;
+	text-align: center;
+}
+
+li::after {
+	content: "|";
+	padding-left: 15px;
+
+}
